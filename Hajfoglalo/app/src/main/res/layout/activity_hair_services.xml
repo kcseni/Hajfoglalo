@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/purple_500"
+                android:text="Válassz a szolgáltatásaink közül!"/>
+        </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="8"
+    android:clipToPadding="false"
+    android:padding="16dp"
+    android:scrollbarStyle="outsideInset"
+    tools:context=".HairServicesActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+
+
+
+        <CheckBox
+            android:id="@+id/szaritas_selected"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:text="@string/szaritas" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+
+
+            <CheckBox
+                android:id="@+id/vagas_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/vagas" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+            >
+
+            <CheckBox
+                android:id="@+id/dauer_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/dauer" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+            >
+
+            <CheckBox
+                android:id="@+id/balayage_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/balayage" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+           >
+
+            <CheckBox
+                android:id="@+id/babylights_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/babylights" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+            >
+
+            <CheckBox
+                android:id="@+id/ombre_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/ombre" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+            >
+
+            <CheckBox
+                android:id="@+id/tofestes_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/tofestes" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+           >
+
+            <CheckBox
+                android:id="@+id/egesz_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/egesz" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+            >
+
+            <CheckBox
+                android:id="@+id/festekradir_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/radir" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+
+            <CheckBox
+                android:id="@+id/joico_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/joico" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+
+            <CheckBox
+                android:id="@+id/hosszabbitas_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/hosszabbitas" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+           >
+
+            <CheckBox
+                android:id="@+id/frufru_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+                android:text="@string/frufru" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+           >
+
+            <CheckBox
+                android:id="@+id/keratin_selected"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+
+                android:text="@string/keratin" ></CheckBox>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="15dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/purple_500"
+            android:text="Becsült ár: "/>
+
+        <TextView
+            android:id="@+id/sum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:text="0 Ft"
+            android:textSize="12sp"
+            android:textColor="@color/purple_500"
+            />
+
+        <Button
+            android:id="@+id/btnFoglalas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="Foglalás"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</LinearLayout>

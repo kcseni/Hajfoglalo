@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".AppointmentActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:textColor="@color/purple_500"
+        android:text="Add meg az adataid!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:text="Név:" />
+
+    <EditText
+        android:id="@+id/etNev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:text="Email:"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:text="Telefonszám:"
+        />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="7"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:weightSum="3"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvidopont"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/purple_500"
+        android:layout_weight="1"
+        android:text="Időpont:"
+        />
+
+    <TextView
+        android:id="@+id/tvdatum"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/purple_500"
+        android:layout_weight="1"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tvido"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/purple_500"
+        android:layout_weight="1"
+        android:text=""
+        />
+</LinearLayout>
+    <Button
+        android:id="@+id/btnDatetime"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Időpont választás"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/purple_500"
+        android:text="Kérlek tölts fel egy képet a hajadról!"
+        />
+
+
+    <ImageButton
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+
+        android:src="@drawable/camera" />
+    <ImageView
+        android:id="@+id/iv_camera"
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="3"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"/>
+
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="Mentés"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
+
+</LinearLayout>

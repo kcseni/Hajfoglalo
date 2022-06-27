@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hajfoglalo</string>
+    <string name="selected">selected</string>
+    <string name="szaritas">Szárítás</string>
+    <string name="vagas">Vágás</string>
+    <string name="dauer">Dauer</string>
+    <string name="balayage">Balayage</string>
+    <string name="babylights">Babylights</string>
+    <string name="ombre">Ombre</string>
+    <string name="tofestes">Tőfestés</string>
+    <string name="egesz">Egész haj festése</string>
+    <string name="radir">"Festékradír "</string>
+    <string name="joico">"JOICO kezelés "</string>
+    <string name="hosszabbitas">Hajhosszabbítás</string>
+    <string name="frufru">Frufru vágás</string>
+    <string name="keratin">Keratinos hajegyenesítés</string>
+</resources>
